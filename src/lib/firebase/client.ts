@@ -2,14 +2,13 @@ import { getApp, getApps, initializeApp, type FirebaseApp } from "firebase/app";
 import { getAuth, type Auth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDm9UDC8oA95Oe9swtfb_ofPFC9oI58_Ss",
+  authDomain: "redux-auth-b7599.firebaseapp.com",
+  projectId: "redux-auth-b7599",
+  storageBucket: "redux-auth-b7599.firebasestorage.app",
+  messagingSenderId: "5246984334",
+  appId: "1:5246984334:web:9f9f4c56c1aec6f602e9df"
 };
-
 // const firebaseConfig = {
 //   apiKey: "AIzaSyAadRnxl07Ug_f8tOllNGEVCCp9j1orHuU",
 //   authDomain: "auth-f5e79.firebaseapp.com",
